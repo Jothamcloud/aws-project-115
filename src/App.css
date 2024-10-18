@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.s3-video-player {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-list {
+  width: 30%;
+  text-align: left;
+}
+
+.video-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.video-list li {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.video-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.video-player {
+  width: 65%;
+}
